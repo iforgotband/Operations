@@ -21,6 +21,11 @@
 	  // Make sure your links work, please.
 	  "no-dead-link": true,
 	  // Any heading needs to have a purpose.
-	  "no-empty-section": true
+	  "no-empty-section": true,
+	  // Let's be consistent with our words.
+	  "terminology": true,
+	  // Make sure you've defined any acronyms correctly.
+	  "unexpanded-acronym": true,
+	  "abbr-within-parentheses": true
    }
 }
