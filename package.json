@@ -23,9 +23,8 @@
       "url": "https://github.com/devlikeoperations/Operations.git"
    },
    "scripts": {
-      "pretest": "textlint --fix --rule en-capitalization --rule stop-words --rule apostrophe --rule common-misspellings --rule abbr-within-parentheses --rule terminology --rule date-weekday-mismatch \"./Ops/**/*.markdown\" \"*.markdown\"",
-      "test": "textlint \"./Ops/*.markdown\" \"*.markdown\"",
-      "precommit": "textlint --rule no-todo \"./Ops/**/*.markdown\""
+      "pretest": "",
+      "test": "textlint --fix --rule en-capitalization --rule stop-words --rule apostrophe --rule common-misspellings --rule abbr-within-parentheses --rule terminology --rule date-weekday-mismatch \"./Ops/*.{md|markdown}\""
    },
    "devDependencies": {
       "textlint": "^9.1.1",
