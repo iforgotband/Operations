@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MySolace/Operations.svg?branch=master)](https://travis-ci.org/MySolace/Operations)
+
 # Declaration of Purpose
 
 Development Operations, or DevOps as we like to call it, refers to the processes by which a bunch
