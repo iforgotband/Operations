@@ -23,8 +23,8 @@
       "url": "https://github.com/devlikeoperations/Operations.git"
    },
    "scripts": {
-      "pretest": "",
-      "test": "textlint --fix --rule en-capitalization --rule stop-words --rule apostrophe --rule common-misspellings --rule abbr-within-parentheses --rule terminology --rule date-weekday-mismatch \"./Ops/*.{md|markdown}\""
+      "pretest": "find . -type f -name \"*.md\" ! -path \"./node_modules/*\"| while read i; do mv \"$i\" \"${i%.*}.markdown\"; done",
+      "test": "textlint --fix --rule en-capitalization --rule stop-words --rule apostrophe --rule common-misspellings --rule abbr-within-parentheses --rule terminology --rule date-weekday-mismatch \"find . -type f -name \"*.markdown\" ! -path \"./node_modules/*\"\""
    },
    "devDependencies": {
       "textlint": "^9.1.1",
