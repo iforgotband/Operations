@@ -1,0 +1,26 @@
+{
+  "filters": {},
+  "rules": {
+	  "max-comma": {
+		  // Limit allowed commas per sentence to two. If you've
+		  // got more than needed for an aside, you have too many.
+		  "max": 2
+	  },
+	  // If there are still any TODO tags, you need to take care of them.
+	  "no-todo": true,
+	  // If you started your sentence with "However," then it doesn't
+	  // follow to start the next with "but".
+	  "no-start-duplicated-conjunction": true,
+	  // Disallow using the interrobang/interabang. (!?)
+	  // It isn't wrong, just tacky.
+	  "no-exclamation-question-mark": {
+		  // Allow using ? seperately.
+		  "allowFullWidthQuestion": true,
+		  "allowHalfWidthQuestion": true
+	  },
+	  // Make sure your links work, please.
+	  "no-dead-link": true,
+	  // Any heading needs to have a purpose.
+	  "no-empty-section": true
+   }
+}

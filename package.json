@@ -1,0 +1,40 @@
+{
+  "name": "devlikeops",
+  "version": "0.0.1",
+  "description": "Developer Operations for the rest of us.",
+  "homepage": "https://devlikeoperations.github.io/Operations",
+  "bugs": {
+    "email": "casey@mysolace.life",
+    "url": "https://github.com/devlikeoperations/Operations/issues"
+  },
+  "license": "GPL-3.0",
+  "author": {
+    "name": "Casey (Casker) Parker",
+    "email": "casey@mysolace.life",
+    "url": "https://keybase.io/caseyjparker"
+  },
+  "man": {
+    "name": "devlikeops",
+    "version": "0.0.1",
+    "description": "Developer Operations for the rest of us."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devlikeoperations/Operations.git"
+  },
+  "scripts": {
+    "pretest": "textlint --fix --rule date-weekday-mismatch \"./Ops/**/*.markdown\"",
+    "test": "textlint \"./Ops/*.markdown\"",
+    "precommit": "textlint --rule no-todo \"./Ops/**/*.markdown\""
+  },
+  "dependencies": {
+    "textlint": "^9.1.1",
+    "textlint-rule-date-weekday-mismatch": "^1.0.5",
+    "textlint-rule-max-comma": "^1.0.4",
+    "textlint-rule-no-dead-link": "^3.1.1",
+    "textlint-rule-no-empty-section": "^1.1.0",
+    "textlint-rule-no-exclamation-question-mark": "^1.0.2",
+    "textlint-rule-no-start-duplicated-conjunction": "^1.1.4",
+    "textlint-rule-no-todo": "^2.0.0"
+  }
+}
