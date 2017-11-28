@@ -1824,6 +1824,10 @@ textlint-rule-alex@^1.2.0:
     alex "^4.0.1"
     textlint-rule-helper "^2.0.0"
 
+textlint-rule-apostrophe@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-apostrophe/-/textlint-rule-apostrophe-0.1.0.tgz#8ff776002b4ee62788d6cb4f3218fa94b1b16a45"
+
 textlint-rule-common-misspellings@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/textlint-rule-common-misspellings/-/textlint-rule-common-misspellings-1.0.1.tgz#8c4133cf3bb59aa159199d2c9bced12413365774"
