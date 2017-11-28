@@ -1,5 +1,11 @@
 {
-  "filters": {},
+  "filters": {
+	  // Disable linting in text using
+	  // <!-- textlint-disable -->
+	  // This is ignored.
+	  //<!-- textlint-enable -->
+	  "comments": true
+  },
   "rules": {
 	  // Alex is the most important rule set in the configuration.
 	  // it catches insensitive and inconsiderate writing. We do
