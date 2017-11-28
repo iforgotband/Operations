@@ -51,6 +51,19 @@
 		  "tooWordy": true,
 		  // Try not to be too cliche.
 		  "cliches": true
+	  },
+	  // Filter for words and phrases that stop critical thought.
+	  // Obviously disable if you're writing ad copy.
+	  "stop-words":{
+		  // Default dictionary that we can whitelist from.
+		  "defaultWords": true,
+		  // Sometimes what you've got to quote isn't fun.
+		  "skip": ["Blockquote"],
+		  // These phrases from the defaults, we'll allow.
+		  // If you need to use a blocked phrase, add in
+		  // your own branch and comment in your commit.
+		  "exclude": [
+		  ]
 	  }
    }
 }

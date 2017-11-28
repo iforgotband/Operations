@@ -7,7 +7,7 @@
 # Declaration of Purpose
 
 Development Operations(DevOps)  as we like to call it, refers to the processes by which a bunch
-of unstable code monkies are herded in a productive fashion. It’s an answer to the chaos that is distanced cooperation. 
+of unstable code monkies are herded in a productive fashion. It’s an answer to the chaos of distanced cooperation. 
 attempting to work on the same complex set of documents, at the same time. Our solution
 is in automation, and the idea of Continuous Integration(CI). This particular Ops repository is here
 to serve as a template for new Ops packages, and also the repository of those that already exist,

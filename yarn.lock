@@ -1637,6 +1637,10 @@ spdx-license-ids@^1.0.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-1.2.2.tgz#c9df7a3424594ade6bd11900d596696dc06bac57"
 
+split-lines@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/split-lines/-/split-lines-1.1.0.tgz#3abba8f598614142f9db8d27ab6ab875662a1e09"
+
 split-string-words@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/split-string-words/-/split-string-words-1.0.0.tgz#a5e1c7bc96499d3caa000a81d074f32774027ddd"
@@ -1905,6 +1909,14 @@ textlint-rule-no-todo@^2.0.0:
   resolved "https://registry.yarnpkg.com/textlint-rule-no-todo/-/textlint-rule-no-todo-2.0.0.tgz#877b8e60c34cf84df3957d694e5d0f5c2158b72f"
   dependencies:
     textlint-rule-helper "^1.1.3"
+
+textlint-rule-stop-words@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-stop-words/-/textlint-rule-stop-words-1.0.0.tgz#b4268d7fc0ccfb67f65a5e8e199d56f8ec1133b3"
+  dependencies:
+    lodash "^4.17.4"
+    split-lines "^1.1.0"
+    textlint-rule-helper "^2.0.0"
 
 textlint-rule-terminology@^1.1.21:
   version "1.1.21"
