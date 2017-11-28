@@ -28,6 +28,12 @@
 	  "terminology": true,
 	  // Make sure you've defined any acronyms correctly.
 	  "unexpanded-acronym": true,
-	  "abbr-within-parentheses": true
+	  "abbr-within-parentheses": true,
+	  // If you're going on too long, you don't understand the content
+	  // well enough yet. 
+	  "en-max-word-count": {
+		  // For clarity, 25 is a useful limit to work in.
+		  "max": 25
+	  }
    }
 }
