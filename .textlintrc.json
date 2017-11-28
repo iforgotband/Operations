@@ -1,13 +1,15 @@
 {
   "filters": {},
   "rules": {
+	  // Alex is the most important rule set in the configuration.
+	  // it catches insensitive and inconsiderate writing. We do
+	  // all have biases - it's time we use computers to help that.
+	  "alex": true,
 	  "max-comma": {
 		  // Limit allowed commas per sentence to two. If you've
 		  // got more than needed for an aside, you have too many.
 		  "max": 2
 	  },
-	  // If there are still any TODO tags, you need to take care of them.
-	  "no-todo": true,
 	  // If you started your sentence with "However," then it doesn't
 	  // follow to start the next with "but".
 	  "no-start-duplicated-conjunction": true,
