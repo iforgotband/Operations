@@ -52,6 +52,13 @@
 		  // Try not to be too cliche.
 		  "cliches": true
 	  },
+	  // Check against capitalization rules.
+	  "en-capitalization": {
+		  // Allow for lower-case lists (please be consistent).
+		  "allowLists": true,
+		  // Allow for lower-case in image 'alt' tags.
+		  "allowFigures": true
+	  },
 	  // Filter for words and phrases that stop critical thought.
 	  // Obviously disable if you're writing ad copy. Realistically,
 	  // place text between <!-- textlint-disable stop-words -->
