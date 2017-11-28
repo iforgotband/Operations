@@ -34,6 +34,23 @@
 	  "en-max-word-count": {
 		  // For clarity, 25 is a useful limit to work in.
 		  "max": 25
+	  },
+	  "write-good": {
+		  // Disable check for passive voice.
+		  "passive": false,
+		  // Don't allow lexical illusion.
+		  "illusion": true,
+		  // Don't start a sentence with "There is" or "There are".
+		  "thereIs": false,
+		  // Don't check for 'politically advantageous' wording.
+		  "weasel": false,
+		  // If you're using an adverb, you really need to
+		  // read more often.
+		  "adverb": true,
+		  // Don't get too wordy, try to explain in brief.
+		  "tooWordy": true,
+		  // Try not to be too cliche.
+		  "cliches": true
 	  }
    }
 }
