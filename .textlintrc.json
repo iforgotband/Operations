@@ -53,7 +53,9 @@
 		  "cliches": true
 	  },
 	  // Filter for words and phrases that stop critical thought.
-	  // Obviously disable if you're writing ad copy.
+	  // Obviously disable if you're writing ad copy. Realistically,
+	  // place text between <!-- textlint-disable stop-words -->
+	  // and <!-- textlint-enable -->.
 	  "stop-words":{
 		  // Default dictionary that we can whitelist from.
 		  "defaultWords": true,
