@@ -12,4 +12,4 @@ attempting to work on the same complex set of documents, at the same time. Our s
 is in automation, and the idea of Continuous Integration(CI). This particular Ops repository is here
 to serve as a template for new Ops packages, and also the repository of those that already exist,
 If you adapt this to another workflow other than what we already have, we ask that you 
-contribute it back, as described in [CONTRIBUTING](CONTRIBUTING.markdown).
+Contribute it back, as described in [CONTRIBUTING](CONTRIBUTING.markdown).
