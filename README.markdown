@@ -31,6 +31,14 @@ Contribute it back, as described in [CONTRIBUTING](CONTRIBUTING.markdown).
 
 ---
 
-[![Build Status](https://semaphoreci.com/api/v1/mysolace/operations/branches/master/badge.svg)](https://semaphoreci.com/mysolace/operations)
+### Funding
+
+#### Gittip (via Shields.io)
+[![Gittip](http://img.shields.io/gittip/boennemann.svg)](https://www.gittip.com/boennemann/)
+
+#### Flattr
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=boenne&url=https://github.com/boennemann/badges&title=badges&language=&tags=github&category=software)
+
+[![Build Status](https://semaphoreci.com/api/v1/mysolace/operations/branches/master/shields_badge.svg)](https://semaphoreci.com/mysolace/operations)
 
 [ ![Codeship Status for MySolace/Operations](https://app.codeship.com/projects/847e47d0-b6f6-0135-d31f-36f2b71091f8/status?branch=master)](https://app.codeship.com/projects/258729)
