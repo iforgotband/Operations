@@ -1,0 +1,18 @@
+checks:
+    javascript:
+        no_var: true
+        no_param_assign: true
+        no_loop_var_assign: true
+        no_implicit_undefined_return: true
+        no_else_return: true
+        no_alert: true
+        eqeqeq: true
+build:
+    dependencies:
+            before:
+                    - npm install yarn
+    nodes:
+        analysis:
+            environment:
+                node:
+                    version: 6.0.0
