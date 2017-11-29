@@ -5,7 +5,7 @@
 [![devDependencies Status](https://david-dm.org/MySolace/Operations/dev-status.svg)](https://david-dm.org/MySolace/Operations#info=devDependencies)
 [![Build Status](https://travis-ci.org/MySolace/Operations.svg?branch=master)](https://travis-ci.org/MySolace/Operations)
 [![Build Status](https://semaphoreci.com/api/v1/mysolace/operations/branches/master/shields_badge.svg)](https://semaphoreci.com/mysolace/operations)
-[![GitHub version](https://badge.fury.io/gh/MySolace%2FOperations.svg)](http://badge.fury.io/gh/MySolace%2FOperations)
+[![GitHub version](https://badge.fury.io/gh/MySolace%2FOperations.svg)](https://badge.fury.io/gh/MySolace%2FOperations)
 
 # Declaration of Purpose
 
