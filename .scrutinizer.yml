@@ -1,9 +1,9 @@
 # .scrutinizer.yml
 checks:
         javascript:
-        no_loop_var_assign: true
-        no_else_return: true
-        eqeqeq: true
+                no_loop_var_assign: true
+                no_else_return: true
+                eqeqeq: true
 build:
         nodes:
                 analysis:
