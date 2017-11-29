@@ -32,3 +32,4 @@ Contribute it back, as described in [CONTRIBUTING](CONTRIBUTING.markdown).
 ---
 
 [ ![Codeship Status for MySolace/Operations](https://app.codeship.com/projects/847e47d0-b6f6-0135-d31f-36f2b71091f8/status?branch=master)](https://app.codeship.com/projects/258729)
+[![GitHub license](https://img.shields.io/github/license/MySolace/Operations.git.svg?style=plastic)](https://github.com/MySolace/Operations.git)
