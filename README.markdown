@@ -1,7 +1,8 @@
 #### DevLike Operations
 <!--When adding a badge, make sure it is pointed at the correct branch.-->
-[![Build Status](https://travis-ci.org/MySolace/Operations.svg?branch=master)](https://travis-ci.org/MySolace/Operations)
 [![devDependencies Status](https://david-dm.org/MySolace/Operations/dev-status.svg)](https://david-dm.org/MySolace/Operations#info=devDependencies)
+[![Build Status](https://travis-ci.org/MySolace/Operations.svg?branch=master)](https://travis-ci.org/MySolace/Operations)
+[ ![Codeship Status for MySolace/Operations](https://app.codeship.com/projects/847e47d0-b6f6-0135-d31f-36f2b71091f8/status?branch=master)](https://app.codeship.com/projects/258729)
 
 ---
 
