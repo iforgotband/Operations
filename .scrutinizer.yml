@@ -1,5 +1,5 @@
 # .scrutinizer.yml
-# checks:
+checks:
 javascript:
         no_var: true
         no_param_assign: true
