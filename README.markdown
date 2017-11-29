@@ -4,6 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/MySolace/Operations/pulls)
 [![devDependencies Status](https://david-dm.org/MySolace/Operations/dev-status.svg)](https://david-dm.org/MySolace/Operations#info=devDependencies)
 [![Build Status](https://travis-ci.org/MySolace/Operations.svg?branch=master)](https://travis-ci.org/MySolace/Operations)
+[![Build Status](https://semaphoreci.com/api/v1/mysolace/operations/branches/master/shields_badge.svg)](https://semaphoreci.com/mysolace/operations)
 [![GitHub version](https://badge.fury.io/gh/MySolace%2FOperations.svg)](http://badge.fury.io/gh/MySolace%2FOperations)
 
 # Declaration of Purpose
@@ -33,12 +34,7 @@ Contribute it back, as described in [CONTRIBUTING](CONTRIBUTING.markdown).
 
 ### Funding
 
-#### Gittip (via Shields.io)
-[![Gittip](http://img.shields.io/gittip/boennemann.svg)](https://www.gittip.com/boennemann/)
-
 #### Flattr
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=boenne&url=https://github.com/boennemann/badges&title=badges&language=&tags=github&category=software)
-
-[![Build Status](https://semaphoreci.com/api/v1/mysolace/operations/branches/master/shields_badge.svg)](https://semaphoreci.com/mysolace/operations)
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=mysolace&url=https://github.com/MySolace/Operations&title=badges&language=&tags=github&category=software)
 
 [ ![Codeship Status for MySolace/Operations](https://app.codeship.com/projects/847e47d0-b6f6-0135-d31f-36f2b71091f8/status?branch=master)](https://app.codeship.com/projects/258729)
