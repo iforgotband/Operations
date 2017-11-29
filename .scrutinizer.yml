@@ -8,6 +8,9 @@ checks:
         no_alert: true
         eqeqeq: true
 build:
+    dependencies:
+            before:
+                    - npm install yarn
     nodes:
         analysis:
             environment:
