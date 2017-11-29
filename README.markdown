@@ -3,7 +3,6 @@
 [![devDependencies Status](https://david-dm.org/MySolace/Operations/dev-status.svg)](https://david-dm.org/MySolace/Operations#info=devDependencies)
 [![Build Status](https://travis-ci.org/MySolace/Operations.svg?branch=master)](https://travis-ci.org/MySolace/Operations)
 [![GitHub issues](https://img.shields.io/github/issues/MySolace/Operations.git.svg)](https://github.com/MySolace/Operations.git/issues)
-[ ![Codeship Status for MySolace/Operations](https://app.codeship.com/projects/847e47d0-b6f6-0135-d31f-36f2b71091f8/status?branch=master)](https://app.codeship.com/projects/258729)
 
 ---
 
@@ -29,3 +28,7 @@ is in automation, and the idea of Continuous Integration(CI). This particular Op
 to serve as a template for new Ops packages, and also the repository of those that already exist,
 If you adapt this to another workflow other than what we already have, we ask that you 
 Contribute it back, as described in [CONTRIBUTING](CONTRIBUTING.markdown).
+
+---
+
+[ ![Codeship Status for MySolace/Operations](https://app.codeship.com/projects/847e47d0-b6f6-0135-d31f-36f2b71091f8/status?branch=master)](https://app.codeship.com/projects/258729)
