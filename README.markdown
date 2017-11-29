@@ -4,7 +4,10 @@
 [![Build Status](https://travis-ci.org/MySolace/Operations.svg?branch=master)](https://travis-ci.org/MySolace/Operations)
 [![GitHub issues](https://img.shields.io/github/issues/MySolace/Operations.git.svg)](https://github.com/MySolace/Operations.git/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/MySolace/Operations/pulls)
+
 ---
+
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/MySolace/Operations.svg?columns=Backlog,In%20Progress,Review,Done,Next)](https://waffle.io/MySolace/Operations)
 
 # Declaration of Purpose
 
@@ -32,4 +35,3 @@ Contribute it back, as described in [CONTRIBUTING](CONTRIBUTING.markdown).
 ---
 
 [ ![Codeship Status for MySolace/Operations](https://app.codeship.com/projects/847e47d0-b6f6-0135-d31f-36f2b71091f8/status?branch=master)](https://app.codeship.com/projects/258729)
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/MySolace/Operations.svg?columns=Backlog,In%20Progress,Review,Done,Next)](https://waffle.io/MySolace/Operations)
