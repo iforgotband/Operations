@@ -13,13 +13,3 @@ build:
             environment:
                 node:
                     version: 6.0.0
-            tests:
-                override:
-                    -
-                        command: scss-lint-run
-                        use_website_config: true
-                    -
-                        command: csslint-run
-                        use_website_config: true
-
-        tests: true
