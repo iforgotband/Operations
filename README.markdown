@@ -3,7 +3,7 @@
 [![devDependencies Status](https://david-dm.org/MySolace/Operations/dev-status.svg)](https://david-dm.org/MySolace/Operations#info=devDependencies)
 [![Build Status](https://travis-ci.org/MySolace/Operations.svg?branch=master)](https://travis-ci.org/MySolace/Operations)
 [![GitHub issues](https://img.shields.io/github/issues/MySolace/Operations.git.svg)](https://github.com/MySolace/Operations.git/issues)
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/MySolace/Operations.svg?columns=all)](https://waffle.io/MySolace/Operations) 
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/MySolace/Operations.svg?columns=Backlog,In%20Progress,Review,Done,Next)](https://waffle.io/MySolace/Operations) 
 
 ---
 
