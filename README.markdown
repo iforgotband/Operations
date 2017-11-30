@@ -1,6 +1,7 @@
 #### DevLike Operations
 <!--When adding a badge, make sure it is pointed at the correct branch.-->
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/MySolace/Operations.svg?columns=In%20Progress,Done,Next)](https://waffle.io/MySolace/Operations)
+[![Known Vulnerabilities](https://snyk.io/test/github/mysolace/operations/badge.svg)](https://snyk.io/test/github/mysolace/operations)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/MySolace/Operations/pulls)
 [![devDependencies Status](https://david-dm.org/MySolace/Operations/dev-status.svg)](https://david-dm.org/MySolace/Operations#info=devDependencies)
 [![Build Status](https://travis-ci.org/MySolace/Operations.svg?branch=master)](https://travis-ci.org/MySolace/Operations)
