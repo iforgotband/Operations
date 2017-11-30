@@ -1,0 +1,44 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "plugins": [
+	    "filenames",
+	    "sort-class-members", 
+	    "node", 
+	    "jsfix",
+	    "prettier"
+    ],
+    "extends": [
+	    "eslint:recommended", 
+	    "plugin:node/recommended"
+    ],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+	"jsfix/rule-name": [
+		"filenames",
+		"sort-class-members",
+		"node",
+		"prettier"
+	],
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

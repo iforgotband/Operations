@@ -1,0 +1,11 @@
+project: 
+  name: "Compassion Saves"
+  documents:
+    markdown: "./compassion_saves"
+  code:
+    pretty: true,
+    compliance:
+      opsec: true,
+      hippa: true,
+      pci: true,
+      liscense: "CC-SA-3.0"
