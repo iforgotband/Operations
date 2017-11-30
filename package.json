@@ -1,12 +1,13 @@
 {
    "name": "devlikeops",
-   "version": "0.0.1",
+   "version": "1.0.0-apha+wip",
    "description": "Developer Operations for the rest of us.",
    "homepage": "https://devlikeoperations.github.io/Operations",
    "bugs": {
       "email": "casey@mysolace.life",
       "url": "https://github.com/devlikeoperations/Operations/issues"
    },
+   "main": "devlike.js",
    "license": "GPL-3.0",
    "author": {
       "name": "Casey (Casker) Parker",
@@ -15,7 +16,7 @@
    },
    "man": {
       "name": "devlikeops",
-      "version": "0.0.1",
+      "version": "1.0.0-alpha+wip",
       "description": "Developer Operations for the rest of us."
    },
    "repository": {
@@ -23,10 +24,19 @@
       "url": "https://github.com/devlikeoperations/Operations.git"
    },
    "scripts": {
-      "pretest": "find . -type f -name \"*.md\" ! -path \"./node_modules/*\"| while read i; do mv \"$i\" \"${i%.*}.markdown\"; done; yarn; textlint --fix --rule en-capitalization --rule stop-words --rule apostrophe --rule common-misspellings --rule abbr-within-parentheses --rule terminology --rule date-weekday-mismatch \"find . -type f -name \"*.markdown\" ! -path \"./node_modules/*\"\"",
-      "test": "find . -type f -name \"*.markdown\" ! -path \"./node_modules/*\"| while read i; do textlint --fix $i; done"
+      "pretest": "eslint --fix ."
    },
    "devDependencies": {
+      "eslint": "^4.12.1",
+      "eslint-config-standard": "^10.2.1",
+      "eslint-plugin-filenames": "^1.2.0",
+      "eslint-plugin-import": "^2.8.0",
+      "eslint-plugin-jsfix": "^1.0.3",
+      "eslint-plugin-node": "^5.2.1",
+      "eslint-plugin-prettier": "^2.3.1",
+      "eslint-plugin-promise": "^3.6.0",
+      "eslint-plugin-sort-class-members": "^1.2.2",
+      "eslint-plugin-standard": "^3.0.1",
       "textlint": "^9.1.1",
       "textlint-filter-rule-comments": "^1.2.2",
       "textlint-rule-abbr-within-parentheses": "^1.0.2",
@@ -46,5 +56,13 @@
       "textlint-rule-terminology": "^1.1.21",
       "textlint-rule-unexpanded-acronym": "^1.2.1",
       "textlint-rule-write-good": "^1.6.0"
+   },
+   "dependencies": {
+      "node-yaml-config": "^0.0.4",
+      "prettier": "^1.8.2"
+   },
+   "peerDependencies": {
+      "eslint": "^4.12.1",
+      "prettier": "^1.8.2"
    }
 }
