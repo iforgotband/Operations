@@ -6,6 +6,7 @@
 [![Build Status](https://travis-ci.org/MySolace/Operations.svg?branch=master)](https://travis-ci.org/MySolace/Operations)
 [![Build Status](https://semaphoreci.com/api/v1/mysolace/operations/branches/master/shields_badge.svg)](https://semaphoreci.com/mysolace/operations)
 [![GitHub version](https://badge.fury.io/gh/MySolace%2FOperations.svg)](https://badge.fury.io/gh/MySolace%2FOperations)
+[![Docs Status](https://inch-ci.org/github/MySolace/Operations.svg?branch=master)](http://inch-ci.org/github/MySolace/Operations)
 
 # Declaration of Purpose
 
